@@ -7,21 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CA326527E69F90A88BDC0A8 /* Pods_PocketBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 778C59D18DE122CD6D3A3571 /* Pods_PocketBook.framework */; };
 		C25B2C5720087A370004450C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25B2C5620087A370004450C /* AppDelegate.swift */; };
-		C25B2C5920087A370004450C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25B2C5820087A370004450C /* ViewController.swift */; };
 		C25B2C5C20087A370004450C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C25B2C5A20087A370004450C /* Main.storyboard */; };
 		C25B2C5E20087A370004450C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C25B2C5D20087A370004450C /* Assets.xcassets */; };
 		C25B2C6120087A370004450C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C25B2C5F20087A370004450C /* LaunchScreen.storyboard */; };
+		C25B2C6B20087C180004450C /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25B2C6A20087C180004450C /* SignInVC.swift */; };
+		C25B2C6D20087C810004450C /* RecentTransactionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25B2C6C20087C810004450C /* RecentTransactionVC.swift */; };
+		C25B2C6F20087CA50004450C /* TransactionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25B2C6E20087CA50004450C /* TransactionVC.swift */; };
+		C25B2C74200882540004450C /* TransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25B2C72200882540004450C /* TransactionCell.swift */; };
+		C25B2C75200882540004450C /* TransactionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C25B2C73200882540004450C /* TransactionCell.xib */; };
+		C25B2C77200882770004450C /* TransactionSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25B2C76200882770004450C /* TransactionSectionHeader.swift */; };
+		C25B2C792008828F0004450C /* TransactionSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = C25B2C782008828F0004450C /* TransactionSectionHeader.xib */; };
+		C25B2C7B200883220004450C /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25B2C7A200883220004450C /* Transaction.swift */; };
+		C25B2C7D2008B0C60004450C /* TransactionTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25B2C7C2008B0C60004450C /* TransactionTableView.swift */; };
+		C25B2C802008B41D0004450C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25B2C7F2008B41D0004450C /* Extensions.swift */; };
+		C25B2C822008C4350004450C /* PBService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25B2C812008C4350004450C /* PBService.swift */; };
+		C25B2C852008C9590004450C /* transactions.json in Resources */ = {isa = PBXBuildFile; fileRef = C25B2C842008C9590004450C /* transactions.json */; };
+		C25B2C872008FE860004450C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25B2C862008FE860004450C /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1250A2FDB9FCBA9B94D26BFC /* Pods-PocketBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PocketBook/Pods-PocketBook.debug.xcconfig"; sourceTree = "<group>"; };
+		3ADE09CB451A692F20756963 /* Pods-PocketBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-PocketBook/Pods-PocketBook.release.xcconfig"; sourceTree = "<group>"; };
+		778C59D18DE122CD6D3A3571 /* Pods_PocketBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PocketBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C25B2C5320087A370004450C /* PocketBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C25B2C5620087A370004450C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C25B2C5820087A370004450C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C25B2C5B20087A370004450C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C25B2C5D20087A370004450C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C25B2C6020087A370004450C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C25B2C6220087A370004450C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C25B2C6A20087C180004450C /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		C25B2C6C20087C810004450C /* RecentTransactionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTransactionVC.swift; sourceTree = "<group>"; };
+		C25B2C6E20087CA50004450C /* TransactionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionVC.swift; sourceTree = "<group>"; };
+		C25B2C72200882540004450C /* TransactionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCell.swift; sourceTree = "<group>"; };
+		C25B2C73200882540004450C /* TransactionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionCell.xib; sourceTree = "<group>"; };
+		C25B2C76200882770004450C /* TransactionSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionSectionHeader.swift; sourceTree = "<group>"; };
+		C25B2C782008828F0004450C /* TransactionSectionHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionSectionHeader.xib; sourceTree = "<group>"; };
+		C25B2C7A200883220004450C /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		C25B2C7C2008B0C60004450C /* TransactionTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTableView.swift; sourceTree = "<group>"; };
+		C25B2C7F2008B41D0004450C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C25B2C812008C4350004450C /* PBService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBService.swift; sourceTree = "<group>"; };
+		C25B2C842008C9590004450C /* transactions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = transactions.json; path = PocketBook/TestData/transactions.json; sourceTree = SOURCE_ROOT; };
+		C25B2C862008FE860004450C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +57,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CA326527E69F90A88BDC0A8 /* Pods_PocketBook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64C1F9D9ABFF428CBA1E87E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				778C59D18DE122CD6D3A3571 /* Pods_PocketBook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A823E3DDB1F9C46D65A0E2C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1250A2FDB9FCBA9B94D26BFC /* Pods-PocketBook.debug.xcconfig */,
+				3ADE09CB451A692F20756963 /* Pods-PocketBook.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C25B2C4A20087A370004450C = {
 			isa = PBXGroup;
 			children = (
 				C25B2C5520087A370004450C /* PocketBook */,
 				C25B2C5420087A370004450C /* Products */,
+				A823E3DDB1F9C46D65A0E2C6 /* Pods */,
+				64C1F9D9ABFF428CBA1E87E3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +102,67 @@
 		C25B2C5520087A370004450C /* PocketBook */ = {
 			isa = PBXGroup;
 			children = (
+				C25B2C832008C94B0004450C /* TestData */,
+				C25B2C7E2008B3C10004450C /* Utils */,
+				C25B2C71200882160004450C /* UIElements */,
+				C25B2C702008820D0004450C /* Models */,
+				C25B2C6920087BF40004450C /* Controllers */,
 				C25B2C5620087A370004450C /* AppDelegate.swift */,
-				C25B2C5820087A370004450C /* ViewController.swift */,
 				C25B2C5A20087A370004450C /* Main.storyboard */,
 				C25B2C5D20087A370004450C /* Assets.xcassets */,
 				C25B2C5F20087A370004450C /* LaunchScreen.storyboard */,
 				C25B2C6220087A370004450C /* Info.plist */,
 			);
 			path = PocketBook;
+			sourceTree = "<group>";
+		};
+		C25B2C6920087BF40004450C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C25B2C6A20087C180004450C /* SignInVC.swift */,
+				C25B2C6C20087C810004450C /* RecentTransactionVC.swift */,
+				C25B2C6E20087CA50004450C /* TransactionVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C25B2C702008820D0004450C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C25B2C7A200883220004450C /* Transaction.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C25B2C71200882160004450C /* UIElements */ = {
+			isa = PBXGroup;
+			children = (
+				C25B2C72200882540004450C /* TransactionCell.swift */,
+				C25B2C73200882540004450C /* TransactionCell.xib */,
+				C25B2C76200882770004450C /* TransactionSectionHeader.swift */,
+				C25B2C782008828F0004450C /* TransactionSectionHeader.xib */,
+				C25B2C7C2008B0C60004450C /* TransactionTableView.swift */,
+			);
+			path = UIElements;
+			sourceTree = "<group>";
+		};
+		C25B2C7E2008B3C10004450C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C25B2C7F2008B41D0004450C /* Extensions.swift */,
+				C25B2C812008C4350004450C /* PBService.swift */,
+				C25B2C862008FE860004450C /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C25B2C832008C94B0004450C /* TestData */ = {
+			isa = PBXGroup;
+			children = (
+				C25B2C842008C9590004450C /* transactions.json */,
+			);
+			name = TestData;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C25B2C6520087A370004450C /* Build configuration list for PBXNativeTarget "PocketBook" */;
 			buildPhases = (
+				81FBD6F2B85218F9697E84F4 /* [CP] Check Pods Manifest.lock */,
 				C25B2C4F20087A370004450C /* Sources */,
 				C25B2C5020087A370004450C /* Frameworks */,
 				C25B2C5120087A370004450C /* Resources */,
+				7739727A280B45750EB42DD0 /* [CP] Embed Pods Frameworks */,
+				19220BF68E07413B3731B6AB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,21 +227,91 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C25B2C852008C9590004450C /* transactions.json in Resources */,
 				C25B2C6120087A370004450C /* LaunchScreen.storyboard in Resources */,
 				C25B2C5E20087A370004450C /* Assets.xcassets in Resources */,
+				C25B2C792008828F0004450C /* TransactionSectionHeader.xib in Resources */,
+				C25B2C75200882540004450C /* TransactionCell.xib in Resources */,
 				C25B2C5C20087A370004450C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19220BF68E07413B3731B6AB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PocketBook/Pods-PocketBook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7739727A280B45750EB42DD0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PocketBook/Pods-PocketBook-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PocketBook/Pods-PocketBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81FBD6F2B85218F9697E84F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PocketBook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C25B2C4F20087A370004450C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C25B2C5920087A370004450C /* ViewController.swift in Sources */,
+				C25B2C7D2008B0C60004450C /* TransactionTableView.swift in Sources */,
+				C25B2C6D20087C810004450C /* RecentTransactionVC.swift in Sources */,
+				C25B2C822008C4350004450C /* PBService.swift in Sources */,
+				C25B2C7B200883220004450C /* Transaction.swift in Sources */,
+				C25B2C74200882540004450C /* TransactionCell.swift in Sources */,
+				C25B2C802008B41D0004450C /* Extensions.swift in Sources */,
 				C25B2C5720087A370004450C /* AppDelegate.swift in Sources */,
+				C25B2C77200882770004450C /* TransactionSectionHeader.swift in Sources */,
+				C25B2C6F20087CA50004450C /* TransactionVC.swift in Sources */,
+				C25B2C6B20087C180004450C /* SignInVC.swift in Sources */,
+				C25B2C872008FE860004450C /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +446,7 @@
 		};
 		C25B2C6620087A370004450C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1250A2FDB9FCBA9B94D26BFC /* Pods-PocketBook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +462,7 @@
 		};
 		C25B2C6720087A370004450C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ADE09CB451A692F20756963 /* Pods-PocketBook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
