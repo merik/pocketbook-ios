@@ -109,7 +109,7 @@ class RecentTransactionVC: UIViewController {
         UITabBar.appearance().tintColor = Constants.PBBlueColor
         
         // table
-        transactionTableView = TransactionTableView(frame: self.view.bounds)
+        transactionTableView = TransactionTableView(frame: self.view.bounds, style: .grouped)
         self.view.addSubview(transactionTableView)
         transactionTableView.transactionTableViewDelegate = self
         transactionTableView.snp.makeConstraints{ (make) -> Void in

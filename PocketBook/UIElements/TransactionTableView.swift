@@ -120,7 +120,7 @@ extension TransactionTableView: UITableViewDataSource, UITableViewDelegate {
         return 60
     }
     func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
-        return 0
+        return .leastNormalMagnitude
         
     }
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
